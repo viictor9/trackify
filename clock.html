@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clock</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <h3>Time Tracker</h3>
+  <div>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="clock.html">Clock</a>
+    <a href="reports.html">Reports</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Live Clock</h2>
+    <h1 id="liveClock"></h1>
+  </div>
+
+  <div class="card">
+    <h3>Select Activity</h3>
+
+    <select>
+      <option>Development</option>
+      <option>Meeting</option>
+      <option>Support</option>
+      <option>Review</option>
+    </select>
+
+    <button class="button btn-success">Clock In</button>
+    <button class="button btn-danger">Clock Out</button>
+  </div>
+
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
